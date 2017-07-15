@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 project(arm_neon_examples)
 set(CMAKE_C_COMPILER arm-linux-gnueabihf-gcc)
-set(CMAKE_C_FLAGS "-Wall -mcpu=native -march=native -mfpu=neon -mfloat-abi=hard")
+set(CMAKE_C_FLAGS "-Wall -mcpu=cortex-a9 -march=armv7-a -mfpu=neon -mfloat-abi=hard")
 set(CMAKE_BINARY_DIR ${CMAKE_BINARY_DIR})
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR})
