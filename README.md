@@ -9,7 +9,7 @@ You can find all ARM NEON functions here: [https://gcc.gnu.org/onlinedocs/gcc-4.
 ```
 mkdir build 
 cd build
-cmake ../build
+cmake ../src
 ``` 
 
 ## Run
